@@ -1,7 +1,7 @@
 module "vpc-net" {
     source = "github.com/mikey-19961997/MODULE/modules/vpc-net"
     vpc_details = {
-        Name = "mikey-vpc"
+        Name = "mikey-vpc1"
         cidr_block = "192.168.0.0/16"
     }
 
